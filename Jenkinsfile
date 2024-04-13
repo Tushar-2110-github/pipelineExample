@@ -8,8 +8,7 @@ pipeline{
         }
         stage("run"){
             steps{
-
-            bat "java Test"
+                bat "java Test.class"
             }
 
         }
