@@ -3,12 +3,12 @@ pipeline{
     stages {
         stage("compile"){
            steps{
-             bat 'javac Test.java'
+             bat 'javac hy.java'
            }
         }
         stage("run"){
             steps{
-                bat "java Test.class"
+                bat "java hy"
             }
 
         }
